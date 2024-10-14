@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Détails de l'Utilisateur</title>
-    <link rel='stylesheet' href='../style.css'>
+    <link rel="stylesheet" href="../view/style.css">
 </head>
 <body>
   
@@ -20,6 +20,7 @@
             <td><?php echo $user1->getEmail(); ?></td>
         </tr>
     </table>
+    <br>
     <a href="../form.html">Retour au formulaire</a>
 </body>
 </html>
